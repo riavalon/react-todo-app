@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form>
+  <input
+    className="input"
+    placeholder="Start typing here..."
+    type="text"
+    value="Thing to do"
+  />
+  <button
+    className="button"
+    type="submit"
+  >
+    Add Task
+  </button>
+</form>
+`;

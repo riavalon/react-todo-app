@@ -1,22 +1,74 @@
-.App {
+body {
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+  box-sizing: border-box;
+  color: rgb(41, 41, 41);
+}
+
+.todoList {
+  max-width: 1000px;
+  margin: 50px auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+h2 {
+  font-size: 3rem;
+  margin: 130px auto 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input, 
+button,
+.listItem {
+  font-size: 1.3rem;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(99, 99, 99, 0.2);
+}
+
+input {
+  width: calc(100% - 245px);
+  border: 0.5px solid rgb(233, 233, 233);
+}
+
+input::placeholder {
+  color: rgb(189, 189, 189);
+}
+
+button {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 10px;
+  background-color: rgb(74, 153, 255);
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+ul {
+  margin-top: 100px;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(99, 99, 99, 0.2);
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.emptyList {
+  height: 30vh;
+  color: rgb(180, 180, 180);
+  font-size: 2.3rem;
+}
+
+.emptyList p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+span {
+  font-size: 1.9rem;
+  opacity: 50%;
 }

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<li
+  className="listItem"
+  onClick={[Function]}
+>
+  Todo or not Todo, that is the question.
+</li>
+`;

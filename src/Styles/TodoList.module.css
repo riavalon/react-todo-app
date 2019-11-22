@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+  box-sizing: border-box;
+  color: rgb(41, 41, 41);
+}
+
+.todoList {
+  text-align: center;
+  max-width: 1000px;
+  margin: 50px auto;
+}

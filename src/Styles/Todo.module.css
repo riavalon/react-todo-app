@@ -1,0 +1,10 @@
+.listItem {
+  font-size: 1.3rem;
+  text-align: left;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 25px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 4px rgba(99, 99, 99, 0.2);
+}

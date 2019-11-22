@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="todoList"
+>
+  <h2
+    className="heading"
+  >
+    's Super Cool To Do List
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Start typing here..."
+      type="text"
+      value=""
+    />
+    <button
+      className="button"
+      type="submit"
+    >
+      Add Task
+    </button>
+  </form>
+  <ul
+    className="list"
+  >
+    <li
+      className="emptyList"
+    >
+      <p>
+        No outstanding tasks! 
+        <span
+          aria-label="emojis"
+          className="emojis"
+          role="img"
+        >
+          🎉🎉
+        </span>
+      </p>
+    </li>
+  </ul>
+</div>
+`;
